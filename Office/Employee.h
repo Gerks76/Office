@@ -16,6 +16,6 @@ public:
 	Employee(string name, string position, float salary);
 
 	virtual void show()const;
-	virtual void calcSalary()const;
+	virtual float calcSalary()const;
 };
 
